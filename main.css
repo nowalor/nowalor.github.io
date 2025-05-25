@@ -66,3 +66,17 @@ html, body {
 .graphics-img {
     width: 33%;
 }
+
+.home-text {
+    color: white;
+    padding: 0 200px;
+}
+
+.home-text {
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+.home-text-text {
+    font-size: 32px;
+}
