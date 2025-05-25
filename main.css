@@ -80,3 +80,26 @@ html, body {
 .home-text-text {
     font-size: 32px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #D9D9D9;
+    height: 122px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-text {
+    font-weight: lighter;
+}
+
+.footer-text a{
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
