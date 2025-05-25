@@ -130,3 +130,9 @@ html, body {
 .om-mig-tekst-p {
     font-size: 32px;
 }
+
+.kontakt-main {
+    padding: 200px;
+    display: flex;
+    color: white;
+}
