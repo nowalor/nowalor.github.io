@@ -191,3 +191,61 @@ html, body {
     transform: translate(-50%, -50%);  /* Put center in center instead of start to center */
     font-size: 100px;
 }
+
+.the-porfolio {
+    padding: 50px 100px;
+
+
+    color:white;
+    background: var(--dark);
+}
+
+.the-porfolio-h3 .the-porfolio-p {
+    font-size: 40px;
+}
+
+.the-porfolio-divs {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap; /* Without this all 6 items are next to each other and never go on a new line*/
+}
+
+.the-porfolio-div {
+    width: 540px;
+    border: 1px solid white;
+    /* Put border on only bottom*/
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.the-portfolio-text-box {
+    height: 350px;
+    padding: 30px 50px;
+    margin-top: -5px; /* Remove weird gap between image and brown color */
+    /* For some reason I need to put it in both places?*/
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.the-portfolio-text-box h1 {
+    font-size: 48px;
+}
+
+
+/*
+* Small utility classes
+ */
+.brown {
+    background-color: #938581;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: #990015;
+}
+
