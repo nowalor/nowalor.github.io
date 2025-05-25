@@ -132,7 +132,41 @@ html, body {
 }
 
 .kontakt-main {
-    padding: 200px;
+    padding: 0 200px;
     display: flex;
     color: white;
+    justify-content: space-between;
+    background-color: var(--dark);
+}
+
+.kontakt-h1{
+    padding-top: 150px;
+    font-size: 48px;
+}
+
+.kontakt-p {
+    width: 450px;
+    font-size: 32px;
+}
+
+.kontakt {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.kontaktmig {
+    max-width: 540px;
+}
+
+.kontakt-white-text {
+    background: #938581;
+    margin-top: -20px;
+    padding: 40px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 540px;
+}
+
+.kontakt-white-text p {
+    margin-top: 30px;
 }
