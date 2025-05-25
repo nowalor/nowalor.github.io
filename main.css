@@ -104,3 +104,29 @@ html, body {
     text-decoration: none;
     color: black;
 }
+
+.about-me-photo-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-photo-section-photo{
+    height: 600px;
+}
+
+.om-mig-tekst {
+    height: 400px;
+    color: white;
+    background: var(--dark);
+    padding: 50px 200px 400px 200px;
+}
+
+.om-mig-tekst-h3 {
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.om-mig-tekst-p {
+    font-size: 32px;
+}
