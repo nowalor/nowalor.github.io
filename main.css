@@ -170,3 +170,24 @@ html, body {
 .kontakt-white-text p {
     margin-top: 30px;
 }
+
+.portefolje {
+    width: 100%;
+}
+
+.portfolio-first {
+    width: 100%;
+}
+
+.portefolje img{
+    width: 100%;
+}
+
+.portefolje h1 {
+    color: white;
+    position: absolute; /* To place image on top of foto */
+    top: 55%; /* 50% was not prefect in center because of navbar */
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Put center in center instead of start to center */
+    font-size: 100px;
+}
