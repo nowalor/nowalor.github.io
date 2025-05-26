@@ -116,7 +116,6 @@ html, body {
 }
 
 .om-mig-tekst {
-    height: 400px;
     color: white;
     background: var(--dark);
     padding: 50px 200px 400px 200px;
@@ -340,6 +339,35 @@ html, body {
         }
 
 
+    }
+}
+
+/* om-mig responsive */
+@media only screen and (max-width: 1200px) {
+    .om-mig-tekst {
+        padding: 40px;
+    }
+
+    .om-mig-tekst-h3 {
+        font-size: 36px;
+    }
+
+    .om-mig-tekst-p {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me-photo-section-photo {
+        width: 100%;
+        height: auto; /* image does not have it's own height but adjusts to the width */
+    }
+    .om-mig-tekst-h3 {
+        font-size: 28px;
+    }
+
+    .om-mig-tekst-p {
+        font-size: 22px;
     }
 }
 
