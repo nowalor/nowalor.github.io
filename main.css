@@ -514,4 +514,43 @@ html, body {
     width: 1320px;
 }
 
+.animation {
+    background-color: var(--dark);
+    padding: 0 100px;
+    color: white;
+}
+
+.animation-first {
+    padding: 80px;
+}
+
+.animation-first h3 {
+    font-size: 48px;
+}
+
+.animation-first p {
+    font-size: 20px;
+}
+
+.animations {
+    /* Flexbox rick to center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animations-wrap {
+    width: 1080px;
+}
+
+.animations-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.animations-description {
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
 
