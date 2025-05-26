@@ -285,3 +285,61 @@ html, body {
     }
 }
 
+/* Media queries for kontakt page*/
+@media only screen and (max-width: 1400px) {
+    .kontakt-main {
+        /* Make the padding smaller on this screen size so the content does not leek out the sides*/
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .kontakt-main {
+        /* Make the padding smaller on this screen size so the content does not leek out the sides*/
+   /*     flex-direction: column;
+        align-items: center;*/
+
+        .kontakt img, .kontakt-white-text{
+            max-width: 420px;
+        }
+
+        .kontakt-h1 {
+            font-size: 38px;
+        }
+
+        .kontakt-p {
+            font-size: 22px;
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .kontakt-main {
+             flex-direction: column;
+             align-items: center;
+        padding: 0 25px;
+
+        .kontakt img, .kontakt-white-text{
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .kontakt {
+            width: 100%;
+        }
+
+       /* .kontakt-h1 {
+            font-size: 38px;
+        } */
+
+        .kontakt-p {
+            font-size: 22px;
+            width: 100%;
+        }
+
+
+    }
+}
+
