@@ -495,7 +495,7 @@ html, body {
     margin-left: 140px;
 }
 
-.item-left p {
+.item-left p, .item-right p {
     width: 50%;
 }
 
@@ -553,4 +553,6 @@ html, body {
     padding-bottom: 14px;
 }
 
-
+.background-brown {
+    background-color: #938581 !important;
+}
