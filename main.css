@@ -421,4 +421,97 @@ html, body {
 }
 
 
+.hero-img {
+    width: 100%;
+}
+
+.hero-h1 {
+    font-size: 128px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 400;
+}
+
+.videografi {
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: var(--dark);
+    padding: 40px 0;
+}
+
+.white-heading {
+    padding-top: 8px;
+    font-size: 32px;
+    color: white;
+}
+
+.white-text {
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.videografi-center {
+    padding: 0 140px;
+}
+
+
+.videografi-item {
+    color: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 40px;
+}
+.videografi-img-box {
+    background-color: #970016;
+    width: 720px;
+    height: 360px;
+
+    display: flex;
+    align-items: center;
+}
+
+.item-text-right {
+
+}
+
+.videografi-img {
+    height: 300px;
+    width: 570px;
+    margin-left: 20px;
+    margin-bottom: -16px; /* Offset for the shadow on the image, so it looks like it's in the center*/
+}
+
+.videografi-item-text {
+    width: 900px;
+}
+
+.item-left {
+    margin-left: 140px;
+}
+
+.item-left p {
+    width: 50%;
+}
+
+.border-left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.border-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.img-box-width {
+    width: 1320px;
+}
+
 
