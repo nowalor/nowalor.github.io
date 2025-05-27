@@ -592,7 +592,8 @@ html, body {
     justify-content: space-between;
     padding-top: 40px;
     flex-wrap: wrap;
-    row-gap: 50px;
+    row-gap: 60px;
+    padding-bottom: 60px;
 }
 
 .graphic-design-box {
