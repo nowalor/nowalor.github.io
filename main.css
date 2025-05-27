@@ -724,6 +724,7 @@ html, body {
      */
     .hero-h1{
         font-size: 64px;
+            top: 35%;
     }
 
     /* fotografi site*/
@@ -752,4 +753,32 @@ html, body {
     .hero-h1{
         font-size: 34px;
     }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .videografi-item {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .videografi {
+        padding: 0 14px;
+    }
+
+    .videografi-img-box {
+        width: 100%;
+    }
+    .videografi-img {
+        width: 80%;
+    }
+
+    .item-right p, .item-left p {
+        width: 100%;
+    }
+
+    .img-box-width, .videografi-item-text {
+        width: auto;
+    }
+
 }
