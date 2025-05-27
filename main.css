@@ -578,14 +578,17 @@ html, body {
     color: white;
 }
 
-.graphic-design-container h3 {
+.reused-header h3 {
     padding-top: 8px;
+    color: white;
     font-size: 48px;
 }
 
-.graphic-design p {
+.reused-header p {
     font-size: 18px;
+    color: white;
 }
+
 
 .graphic-design-boxes {
     display: flex;
@@ -625,5 +628,34 @@ html, body {
 
 .text-shadow {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 
+.website-design-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 100px;
+    color: white;
+}
+
+.website-design {
+    padding-bottom: 100px;
+}
+
+
+.redesign {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.redesign-h3 {
+    margin-bottom: 10px;
+}
+
+.redesign-img {
+    width: 620px;
+}
+
+.extra-space {
+    padding: 40px 300px;
 }
