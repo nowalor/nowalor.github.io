@@ -214,12 +214,14 @@ html, body {
     flex-wrap: wrap; /* Without this all 6 items are next to each other and never go on a new line*/
 }
 
-.the-porfolio-div {
+.the-porfolio-link {
     width: 400px;
     border: 1px solid white;
     /* Put border on only bottom*/
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    text-decoration: none;
+    color: white;
 }
 
 .the-portfolio-text-box {
@@ -658,4 +660,33 @@ html, body {
 
 .extra-space {
     padding: 40px 300px;
+}
+
+.fotografi {
+    background-color: var(--dark);
+    max-width: 1800px;
+    padding: 0 50px;
+    color: white;
+}
+
+.text-container {
+    padding: 0 140px 40px 140px;
+}
+
+.white-heading {
+    padding-top: 8px;
+    font-size: 32px;
+}
+
+.white-text {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.fotografi-images {
+    display: flex;
+}
+
+.fotografi-images-img {
+    width: 25%;
 }
