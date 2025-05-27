@@ -673,6 +673,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    gap: 15px;
 }
 
 .redesign__item {
@@ -684,7 +685,8 @@ html, body {
 }
 
 .redesign__image {
-    width: 620px;
+    max-width: 620px;
+    width: 100%;
 }
 
 .extra-space {
@@ -817,6 +819,22 @@ html, body {
         padding: 14px;
     }
 
+
+    .the-porfolio {
+        padding: 14px;
+    }
+    .the-porfolio-link {
+        width: 100%;
+    }
+
+    .the-portfolio-text-box {
+        padding: 14px;
+        height: auto;
+    }
+
+    .redesign {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -838,5 +856,23 @@ html, body {
     .animation-first {
         padding: 0;
     }
+
+    .extra-space {
+        padding: 0;
+    }
+
+    .reused-header h3 {
+        font-size: 26px;
+    }
+
+    .website-design-container {
+        padding: 14px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
 }
 
