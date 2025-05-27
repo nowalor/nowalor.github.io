@@ -756,10 +756,9 @@ html, body {
     /*
       Hero is responsiv
    */
-    .hero-h1{
-        font-size: 34px;
+    .hero {
+        display: none;
     }
-
 }
 
 @media only screen and (max-width: 900px) {
