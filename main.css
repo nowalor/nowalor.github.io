@@ -818,3 +818,25 @@ html, body {
     }
 
 }
+
+@media only screen and (max-width: 1200px) {
+    .animation {
+        padding: 14px;
+    }
+
+    .animations-wrap {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .animation-first {
+        padding: 0;
+    }
+}
+
