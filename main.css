@@ -74,6 +74,7 @@ html, body {
     height: 500px;
     display: flex;
     justify-content: flex-end;
+    background-color: var(--darkest);
 }
 
 .img-section-photoofme {
