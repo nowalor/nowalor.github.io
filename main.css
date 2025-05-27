@@ -793,6 +793,16 @@ html, body {
     }
 }
 
+
+@media only screen and (max-width: 1400px) {
+    .graphic-design-box {
+        width: 440px;
+    }
+
+    .graphic-design-box .img-box, .graphic-design-box img  {
+        width: 340px;
+    }
+}
 @media only screen and (max-width: 600px) {
  .graphic-design-box  {
      width: 100%;
@@ -806,4 +816,5 @@ html, body {
     .graphic-design-container {
         padding: 14px;
     }
+
 }
