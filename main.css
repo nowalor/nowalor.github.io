@@ -622,3 +622,8 @@ html, body {
 .graphic-design-box p {
     font-size: 22px;
 }
+
+.text-shadow {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
