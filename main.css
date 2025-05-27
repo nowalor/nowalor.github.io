@@ -776,6 +776,7 @@ html, body {
     }
     .videografi-img {
         width: 80%;
+        height: auto;
     }
 
     .item-right p, .item-left p {
@@ -812,6 +813,10 @@ html, body {
 
     .graphic-design-box .img-box,  .graphic-design-box .img-box img{
         width: 80%;
+    }
+
+    .videografi-img-box  {
+        height: 240px;
     }
 
 
