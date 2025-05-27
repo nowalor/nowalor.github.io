@@ -277,7 +277,7 @@ html, body {
 }
 
 @media only screen and (max-width: 1200px) {
-    .nav_content {
+    .navbar__content {
         flex-direction: column;
     }
 
@@ -691,6 +691,7 @@ html, body {
 .fotografi {
     background-color: var(--dark);
     max-width: 1800px;
+    margin: 0 auto;
     padding: 0 50px;
     color: white;
 }
@@ -715,4 +716,40 @@ html, body {
 
 .fotografi-images-img {
     width: 25%;
+}
+
+@media only screen and (max-width: 900px) {
+    /*
+        Hero is responsiv
+     */
+    .hero-h1{
+        font-size: 64px;
+    }
+
+    /* fotografi site*/
+    .fotografi-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotografi-images-img {
+        width: 100%;
+    }
+
+    .white-heading {
+        font-size: 18px;
+    }
+
+    .text-container {
+        padding: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /*
+      Hero is responsiv
+   */
+    .hero-h1{
+        font-size: 34px;
+    }
 }
